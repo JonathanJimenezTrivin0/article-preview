@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Frontend Mentor | Article preview component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <div class="header__img"></div>
+      </header>
+      <div class="contain">
+        <p class="contain__title">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </p>
+        <p class="contain__text">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+        <div class="description">
+          <div class="img">
+            <img
+              src="./images/avatar-michelle.jpg"
+              alt="img Michelle"
+              class="description__img"
+            />
+            <div class="avatar">
+              <p class="avatar__name">Michelle Appleton</p>
+              <p class="avatar__date">28 Jun 2020</p>
+            </div>
+          </div>
+
+          <button class="description__btn" id="description__btn">
+            <svg width="14" height="14" class="description__btn-icon">
+              <use href="./images/symbol-defs.svg#icon-arrow"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </main>
+    <div class="share share-js" id="share">
+      <div class="icons">
+        <p>Share</p>
+        <ul class="icons__ul">
+          <li>
+            <a href="#"
+              ><img src="./images/icon-facebook.svg" alt="icon-facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/icon-twitter.svg" alt="icon-twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/icon-pinterest.svg" alt="icon-pinterest"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <button class="description__btn" id="share__btn">
+        <img src="./images/icon-share-white.svg" alt="icon-share" />
+      </button>
+      <div class="floating__triangle"></div>
+    </div>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Jonathan Jimenez</a>.
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
